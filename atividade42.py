@@ -10,9 +10,11 @@ for i in range(0, 5):
     produtos.append(produto)
     valores += valor
 
+print(f"\nOs Produtos São:")
+
 for nome in produtos:
     import time
-    print(f"Produto 1: {nome}")
+    print(f"-{nome}")
     time.sleep(0.7)
     
-print(f"A soma total dos valores é {valores}")
+print(f"\nA soma total dos valores é {valores}")
